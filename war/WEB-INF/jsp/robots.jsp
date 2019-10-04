@@ -1,0 +1,9 @@
+User-agent: 008
+User-agent: Sosospider
+User-Agent: AhrefsBot
+User-Agent: MJ12bot
+User-agent: proximic
+User-agent: JikeSpider
+User-agent: YoudaoBot
+User-agent: Exabot
+Disallow: /

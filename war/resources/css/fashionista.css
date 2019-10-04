@@ -1,0 +1,14 @@
+.follow{
+    height: 80px;
+}
+
+.control {
+    color:#000;
+    margin:10px;
+}
+
+.label {
+    color: #ed3e49;
+    font-size: 18px;
+    font-weight: 500;
+}

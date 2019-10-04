@@ -1,0 +1,31 @@
+.widget-fashionistas li .img {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 75px;
+    height: 85px;
+    overflow: hidden;
+    margin-top: 7px;
+}
+.widget-fashionistas li>a {
+    display: block;
+    width: 100%;
+    color: #344644;
+    padding: 3px 10px;
+    position: relative;
+    margin-top: 7px;
+}
+.widget-fashionistas li {
+    border-bottom: 1px solid #ebebeb;
+}
+.widget-fashionistas {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widget-fashionistas li .fashionista>.name {
+    display: block;
+    padding-bottom: 7px;
+    margin-top: 0px;
+}

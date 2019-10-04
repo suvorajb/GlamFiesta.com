@@ -1,0 +1,12 @@
+<!-- Indices written at Sun, 27 Aug 2017 21:13:44 IST -->
+
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="UserLookbookDO" ancestor="false" source="auto">
+        <property name="lookbook_publish_status" direction="asc"/>
+        <property name="lookbookseason" direction="asc"/>
+        <property name="createddt" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>

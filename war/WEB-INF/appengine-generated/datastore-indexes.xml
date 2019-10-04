@@ -1,0 +1,63 @@
+<!-- Indices written at Mon, 2 Feb 2015 13:04:13 CST -->
+
+<datastore-indexes>
+
+    <datastore-index kind="UserActivitiesDO" ancestor="false" source="auto">
+        <property name="userid" direction="asc"/>
+        <property name="actvtdt" direction="desc"/>
+    </datastore-index>
+
+    <datastore-index kind="UserLookbookDO" ancestor="false" source="auto">
+        <property name="lookbook_publish_status" direction="asc"/>
+        <property name="createddt" direction="desc"/>
+    </datastore-index>
+    
+    <datastore-index kind="UserLookbookDO" ancestor="false" source="auto">
+        <property name="lookbook_publish_status" direction="asc"/>
+        <property name="lookbookseason" direction="asc"/>
+        <property name="createddt" direction="desc"/>
+    </datastore-index>
+    
+    <datastore-index kind="UserLookbookDO" ancestor="false" source="auto">
+        <property name="lookbook_publish_status" direction="asc"/>
+        <property name="lookbookstyle" direction="asc"/>
+        <property name="createddt" direction="desc"/>
+    </datastore-index>
+        
+    <datastore-index kind="UserLookbookDO" ancestor="false" source="auto">
+        <property name="lookbook_publish_status" direction="asc"/>
+        <property name="tags" direction="asc"/>
+        <property name="createddt" direction="desc"/>
+    </datastore-index>
+        
+    <datastore-index kind="UserLookbookDO" ancestor="false" source="auto">
+        <property name="lookbook_publish_status" direction="asc"/>
+        <property name="__key__" direction="desc"/>
+    </datastore-index>
+
+    <datastore-index kind="UserLookbookDO" ancestor="false" source="auto">
+        <property name="lookbook_publish_status" direction="asc"/>
+        <property name="userid" direction="asc"/>
+        <property name="__key__" direction="desc"/>
+    </datastore-index>
+
+    <datastore-index kind="LookbookCommentsDO" ancestor="false" source="auto">
+        <property name="lookbookid" direction="asc"/>
+        <property name="commentdt" direction="desc"/>
+    </datastore-index>
+    
+    <datastore-index kind="UserLookbookDO" ancestor="false" source="auto">
+        <property name="disapproved" direction="asc"/>
+        <property name="lookbook_publish_status" direction="asc"/>
+        <property name="createddt" direction="desc"/>
+    </datastore-index>
+    
+    <datastore-index kind="UserLookbookDO" ancestor="false" source="auto">
+        <property name="lookbook_seo_url" direction="desc"/>
+    </datastore-index>
+    
+    <datastore-index kind="UserDO" ancestor="false" source="auto">
+        <property name="my_glam_points" direction="desc"/>
+    </datastore-index>
+    
+</datastore-indexes>
